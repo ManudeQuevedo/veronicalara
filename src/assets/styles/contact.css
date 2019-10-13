@@ -100,20 +100,9 @@
    width: 90%;
 }
 
-textarea.contact-message {
-   border: 1px solid #42c6ba;
-   border-radius: 4px;
-   font-family: 'Open Sans', sans-serif;
-   font-size: .95rem;
-   font-weight: 400;
+/* input:nth-of-type(4) {
    height: 115px;
-   margin-left: 20px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding-left: 10px;
-   padding-top: 10px;
-   width: 90%;
-}
+} */
 
 button.contact-button {
    background: #42c6ba;
