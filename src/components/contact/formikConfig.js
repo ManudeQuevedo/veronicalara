@@ -118,7 +118,7 @@ export default () => {
       <Formik
         initialValues={{
           "bot-field": "",
-          "form-name": "contact",
+          "form-name": "contacto",
           email: "",
           name: "",
           phone: "",
@@ -216,7 +216,6 @@ export default () => {
               onVerify={onVerify}
               onLoad={() => onLoad(() => resetForm)}
               size="invisible"
-              theme="light"
             />
             {renderButton(isSubmitting, executing, verified)}
             {/* {errMsg ? <div className="text-primary m-1">{errMsg}</div> : null} */}
