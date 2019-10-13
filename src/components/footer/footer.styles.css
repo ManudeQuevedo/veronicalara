@@ -1,0 +1,87 @@
+.basic-grid > .content-basic > .grid-2 {
+  padding: 0 !important;
+}
+
+.footer-copyrights-left {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.footer-copyrights-right {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.footer-bottom {
+  background: #fff;
+  box-shadow: 5px 5px 10px #444c52;
+  z-index: 100;
+}
+
+.footer-bottom > .content-basic {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'copyright developed';
+  padding: 15px 5px;
+  z-index: 100;
+}
+
+.footer-copyrights-left {
+  grid-area: copyright;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.footer-copyrights-left > strong {
+  color: #42c6ba;
+}
+
+.footer-copyrights-right > a {
+  color: #42c6ba;
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-copyrights-right > a:hover {
+  color: #1b1a1f;
+  transition: all 500ms ease;
+}
+
+.footer-copyrights-right {
+  grid-area: developed;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.footer-bottom > .content-basic > div:first-child {
+  text-align: center;
+  color: #1b1a1f;
+  width: 100%;
+  display: block;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 720px) {
+  .footer-bottom > .content-basic {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'copyright'
+                         'developed';
+    text-align: center;
+    grid-row-gap: 20px;
+  }
+
+  .footer-copyrights {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+  }
+
+  .footer-bottom > .content-basic > div:first-child {
+    text-align: center;
+  }
+  
+  .footer-bottom > .content-basic > div:last-child {
+    justify-items: center;
+  }
+}
