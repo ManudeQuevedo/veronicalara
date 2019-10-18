@@ -1,3 +1,14 @@
+.success {
+   background-color: #42c46a;
+   border: 1px solid #42c46a;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: bold;
+   margin-top: 20px;
+   padding: 10px 0;
+   width: 100%;
+}
+
 .contact-title {
    font-family: 'Lora', sans-serif;
    font-size: 3rem;
@@ -147,6 +158,18 @@ button.contact-button:hover {
 
 .help.is-danger {
    color: #ff3860;
+}
+
+.failure {
+   background-color: #ff3860;
+   border: 1px solid #ff3860;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+   margin-top: 20px;
+   padding: 10px 0;
+   width: 100%;
 }
 
 .help {
