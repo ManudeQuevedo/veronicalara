@@ -118,16 +118,16 @@ export default () => {
       <Formik
         initialValues={{
           "bot-field": "",
-          "form-name": "contacto",
+          "form-name": "contact",
           email: "",
-          name: "",
+          username: "",
           phone: "",
           message: ""
         }}
         validate={values => {
           let errors = {};
-          if (!values.name) {
-            errors.name = "Por favor ingresa tu nombre";
+          if (!values.username) {
+            errors.username = "Por favor ingresa tu nombre";
           }
 
           if (!values.phone) {
@@ -164,13 +164,13 @@ export default () => {
             <Field type="hidden" name="form-name" />
             <Field type="hidden" name="bot-field" />
             <div className="field">
-              <label className="label" htmlFor="name">
+              <label className="label" htmlFor="username">
                 Nombre
               </label>
-              <Field className="input" name="name" type="text" />
+              <Field className="input" name="username" type="text" />
               <ErrorMessage
                 className="help is-danger"
-                name="name"
+                name="username"
                 component="div"
               />
             </div>
