@@ -1,10 +1,12 @@
-.card-a {
+.card-promotion {
   border: 1px solid black;
   border-radius: 5px;
   margin: 10px 25px;
+  padding: 10px;
+  text-align: center;
 }
 
-.card-a > div.promotion-title {
+.card-promotion > div.promotion-title {
   background-color: #42c6ba;
   border-radius: 5px;
   color: #fff;
@@ -15,18 +17,18 @@
   padding: 10px;
 }
 
-.card-a > .grid-1 > p.promotion-text {
+.card-promotion > .grid-1 > p.promotion-text {
   margin-top: 10px;
 }
 
-.card-a > div.promotion-footer-title {
+.card-promotion > div.promotion-footer-title {
   font-family: 'Lola', serif;
   font-size: 3rem;
   font-weight: bold;
   margin: 20px 0 0 0;
 }
 
-.card-a > div.promotion-footer-title > p.promotion-footer-text {
+.card-promotion > div.promotion-footer-title > p.promotion-footer-text {
   background-color: #42c6ba;
   border-radius: 5px;
   color: #fff;
@@ -184,7 +186,7 @@
     text-align: center;
   }
   
-  .card-a > .text {
+  .card-promotion > .text {
     color: #1b1a1f;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -211,7 +213,7 @@
     padding: 0;
   }
 
-  .card-a > div.promotion-title {
+  .card-promotion > div.promotion-title {
     background-color: #42c6ba;
     border-radius: 5px;
     color: #fff;
@@ -222,18 +224,18 @@
     padding: 10px;
   }
 
-  .card-a > .grid-1 > p.promotion-text {
+  .card-promotion > .grid-1 > p.promotion-text {
     margin-top: 10px;
   }
 
-  .card-a > div.promotion-footer-title {
+  .card-promotion > div.promotion-footer-title {
     font-family: 'Lola', serif;
     font-size: 3rem;
     font-weight: bold;
     margin: 20px 0 0 0;
   }
 
-  .card-a > div.promotion-footer-title > p.promotion-footer-text {
+  .card-promotion > div.promotion-footer-title > p.promotion-footer-text {
     background-color: #42c6ba;
     border-radius: 5px;
     color: #fff;

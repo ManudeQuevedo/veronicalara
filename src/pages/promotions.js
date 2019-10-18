@@ -17,7 +17,7 @@ const Promotions = props => {
       <div className="base-grid">
         <div className="content-basic">
           <div className="grid-3">
-            <div className="card-a">
+            <div className="card-promotion">
               <div className="promotion-title">
                 Exploración de mama y<br />
                 Colposcopia gratis
@@ -33,7 +33,7 @@ const Promotions = props => {
               </div>
             </div>
 
-            <div className="card-a">
+            <div className="card-promotion">
               <div className="promotion-title">
                 Ultrasonido primer
                 <br />
@@ -50,7 +50,7 @@ const Promotions = props => {
               </div>
             </div>
 
-            <div className="card-a">
+            <div className="card-promotion">
               <div className="promotion-title">
                 Carita de bebé en
                 <br />
@@ -73,7 +73,11 @@ const Promotions = props => {
       <div className="learnMore base-grid">
         <div className="content-basic">
           <div className="grid-1">
-            <div className="promotions-subfooter">Para agendar tu cita, contáctame proporcionandome tu nombre, correo y número telefonico así como la promoción de tu interes, me comunicaré a la brevedad posible contigo para agendar tu cita</div>
+            <div className="promotions-subfooter">
+              Para agendar tu cita, contáctame proporcionandome tu nombre,
+              correo y número telefonico así como la promoción de tu interes, me
+              comunicaré a la brevedad posible contigo para agendar tu cita
+            </div>
           </div>
         </div>
       </div>
