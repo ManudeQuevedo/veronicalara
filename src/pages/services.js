@@ -119,7 +119,7 @@ const Services = props => {
           <div className="grid-1">
             <div className="work-together">Para saber precios</div>
             <div className="work-together3">
-              <Link to="/contact" className="btn-bigger btn-ghost">
+              <Link to="/contacto" className="btn-bigger btn-ghost">
                 Contáctame
               </Link>
             </div>

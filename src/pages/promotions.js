@@ -4,30 +4,67 @@ import "../assets/styles/promotions.css"
 const Promotions = props => {
   return (
     <React.Fragment>
-      <div className="base-grid banner-home">
+      <div className="base-grid banner-promotions">
         <div className="content-basic">
           <div className="grid-1">
-            <h1 className="title">Promociones vigentes</h1>
+            <h1 className="promotion-title">Promociones vigentes</h1>
             <p className="subtitle">
-              Promoción vigente del x al x de x del 2019
+              Promociones vigente del 1 al 31 de Octubre del 2019
             </p>
           </div>
         </div>
       </div>
       <div className="base-grid">
         <div className="content-basic">
-          <div className="grid-2">
+          <div className="grid-3">
             <div className="card-a">
-              <div className="title">Promo 1</div>
+              <div className="promotion-title">
+                Exploración de mama y<br />
+                Colposcopia gratis
+              </div>
+              <div className="grid-1">
+                <p className="promotion-text">
+                  * Todos los servicios incluyen consulta gratis
+                </p>
+              </div>
+              <div className="promotion-footer-title">
+                $800
+                <p className="promotion-footer-text">* Precio regular $1,800</p>
+              </div>
             </div>
+
             <div className="card-a">
-               <div className="title">Promo 2</div>
+              <div className="promotion-title">
+                Ultrasonido primer
+                <br />
+                Embarazo
+              </div>
+              <div className="grid-1">
+                <p className="promotion-text">
+                  * Todos los servicios incluyen consulta gratis
+                </p>
+              </div>
+              <div className="promotion-footer-title">
+                $800
+                <p className="promotion-footer-text">* Precio regular $1,500</p>
+              </div>
             </div>
+
             <div className="card-a">
-               <div className="title">Promo 3</div>
-            </div>
-            <div className="card-a">
-               <div className="title">Promo 4</div>
+              <div className="promotion-title">
+                Carita de bebé en
+                <br />
+                3D y 4D
+              </div>
+              <div className="grid-1">
+                <p className="promotion-text">
+                  * Todos los servicios incluyen consulta gratis
+                </p>
+              </div>
+              <div className="promotion-footer-title">
+                $800
+                <p className="promotion-footer-text">* Precio regular $1,500</p>
+              </div>
             </div>
           </div>
           <div />
@@ -36,7 +73,7 @@ const Promotions = props => {
       <div className="learnMore base-grid">
         <div className="content-basic">
           <div className="grid-1">
-            <div className="work-together">Agenda tu cita</div>
+            <div className="promotions-subfooter">Para agendar tu cita, contáctame proporcionandome tu nombre, correo y número telefonico así como la promoción de tu interes, me comunicaré a la brevedad posible contigo para agendar tu cita</div>
           </div>
         </div>
       </div>

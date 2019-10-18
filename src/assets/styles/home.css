@@ -30,6 +30,7 @@
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 2rem;
+  margin-top: 20px;
   text-align: left;
 }
 
@@ -64,17 +65,19 @@
 }
 
 .card-a {
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .card-a > .text {
-   color: #1b1a1f;
-   font-family: 'Montserrat';
-   font-size: 1.3rem;
-   font-weight: 400;
-   line-height: 2rem;
-   min-height: 100px;
-   margin-top: 50px;
+  color: #444c52;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card-a > div.title {
@@ -197,6 +200,7 @@
     font-weight: 400;
     line-height: 2rem;
     text-align: center;
+    margin-top: 20px;
   }
   
   .card-a > .text {
@@ -241,5 +245,9 @@
     font-size: 6rem;
     font-weight: 400;
     text-align: center;
+  }
+
+  .card-a {
+    margin: 0;
   }
 }

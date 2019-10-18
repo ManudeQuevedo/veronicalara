@@ -35,7 +35,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="card-a">
-              <div className="button">
+              <div className="grid-1">
                 <a className="btn-bigger btn-ghost" href="/servicios">
                   Servicios
                 </a>
@@ -50,7 +50,7 @@ const Home = (props) => {
           <div className="grid-1">
             <div className="work-together">Agenda tu cita</div>
             <div className="work-together3">
-              <Link to="/contact" className="btn-bigger btn-ghost">
+              <Link to="/contacto" className="btn-bigger btn-ghost">
                 Contacto
               </Link>
             </div>

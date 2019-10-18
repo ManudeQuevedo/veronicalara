@@ -12,7 +12,7 @@
    font-family: 'Open Sans', sans-serif;
    font-size: 1.3rem;
    font-weight: 400;
-   margin-top: 20px;
+   margin: 20px 20px 0 20px;
    text-align: left;
 }
 
@@ -27,61 +27,57 @@
    text-align: center;
 }
 
-ul.list-item {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 1.1rem;
-   list-style-type: none;
-   background: #ececec;
-}
-
 .list-item > li {
    list-style-position: inherit;
    background: #ececec;
 }
 
-@media only screen and (max-width: 720px) {
-   .grid-4 {
-      grid-template-columns: 1fr;
-      margin: 60px 0;
+@media (min-width: 320px) and (max-width: 767px) {
+   .grid-2 > div > h1 {
+      margin-top: 100px;
+      text-align: center;
    }
 
-   .about-image {
-      margin: 0 auto;
-      padding: 50px 0;
-      width: 250px;
-   }
-
-   .about-center img {
-      width: 330px;
-      margin: 0 auto;
-   }
-
-   .about-title {
-      color: #13eba2;
-      background: #fff;
-      font-family: 'Satisfy', serif;
-      font-size: 2.5rem;
-      font-weight: normal;
-      margin: 40px 0 40px 10px;
-   }
-
-   .about-text {
-      color: #1b1a1f !important;
-      font-family: 'Montserrat', sans-serif;
+   .services-text {
+      color: #414156;
+      font-family: 'Open Sans', sans-serif;
       font-size: 1.3rem;
       font-weight: 400;
-      margin-top: 40px;
-      background: #fff;
-      padding: 0 15px;
+      margin-top: 20px;
+      text-align: center;
    }
 
-   .skills-subtitle {
-      color: #1b1a1f;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 30px;
-      font-weight: 700;
-      margin-top: -20px;
-      text-transform: uppercase;
-      background: #ececec;
+   .about-title-bottom {
+      font-family: 'Lora', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #42c6ba;
+      text-align: left;
+      margin: 50px 0 40px 80px;
+   }
+
+   .timeline > .vertical-timeline {
+      width: 85%;
+      max-width: 1170px;
+      margin: 0 auto;
+      position: relative;
+      padding: 2em 0 8em 0;
+   }
+
+   .grid-1 {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+   }
+
+   p.text {
+      margin-bottom: 30px;
+   }
+
+   p.text:last-of-type {
+    margin-bottom: 80px;
+   }
+
+   div.card-c > div.service-icons > h3 {
+      margin: 0 0 30px 0;
    }
 }

@@ -178,7 +178,7 @@ button.contact-button:hover {
    margin-top: 0.25rem;
 }
 
-@media only screen and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 720px) {
    .grid-4 {
       grid-template-columns: 1fr;
       margin: 60px 0;
@@ -190,28 +190,6 @@ button.contact-button:hover {
       width: 250px;
    }
 
-   .about-center img {
-      width: 330px;
-      margin: 0 auto;
-   }
-
-   .about-title {
-      color: #13eba2;
-      font-family: 'Satisfy', serif;
-      font-size: 2.5rem;
-      font-weight: normal;
-      margin: 40px 0 40px 10px;
-   }
-
-   .about-text {
-      color: #1b1a1f !important;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.3rem;
-      font-weight: 400;
-      margin-top: 40px;
-      padding: 0 15px;
-   }
-
    .skills-subtitle {
       color: #1b1a1f;
       font-family: 'Montserrat', sans-serif;
@@ -220,5 +198,34 @@ button.contact-button:hover {
       margin-top: -20px;
       text-transform: uppercase;
       background: #ececec;
+   }
+
+   .box {
+      background-color: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+      color: #4a4a4a;
+      display: block;
+      padding: 1.25rem;
+      margin: 30px 28px;
+   }
+
+   .contact-text {
+      font-family: 'Lora', serif;
+      text-align: center;
+      margin: 10px 20px;
+      font-size: 1.2rem;
+   }
+
+   .contact-important {
+      font-family: 'Lora', serif;
+      font-size: 1.5rem;
+      margin: 40px 20px;
+      text-align: center;
+   }
+
+   .grid-2 > div > h1 {
+      margin-top: 65px;
+      text-align: center;
    }
 }

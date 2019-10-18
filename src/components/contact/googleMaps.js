@@ -25,8 +25,7 @@ export default function Map({ options, onMount, className }) {
       {...props}
       style={{
         height: `50vh`,
-        margin: `10rem 2rem 5rem 2rem`,
-        borderRadius: `0.3rem`
+        margin: `1.5rem 0 5rem 0`
       }}
     />
   )
