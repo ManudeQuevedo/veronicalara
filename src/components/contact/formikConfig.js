@@ -121,14 +121,14 @@ export default () => {
           "bot-field": "",
           "form-name": "contact",
           email: "",
-          username: "",
+          name: "",
           phone: "",
           message: ""
         }}
         validate={values => {
           let errors = {}
-          if (!values.username) {
-            errors.username = "Por favor ingresa tu nombre"
+          if (!values.name) {
+            errors.name = "Por favor ingresa tu nombre"
           }
 
           if (!values.phone) {
@@ -165,13 +165,13 @@ export default () => {
             <Field type="hidden" name="form-name" />
             <Field type="hidden" name="bot-field" />
             <div className="field">
-              <label className="label" htmlFor="username">
+              <label className="label" htmlFor="name">
                 Nombre
               </label>
-              <Field className="input" name="username" type="text" />
+              <Field className="input" name="name" type="text" />
               <ErrorMessage
                 className="help is-danger"
-                name="username"
+                name="name"
                 component="div"
               />
             </div>
