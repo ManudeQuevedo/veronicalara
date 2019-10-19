@@ -36,9 +36,9 @@ const Home = (props) => {
             </div>
             <div className="card-a">
               <div className="grid-1">
-                <a className="btn-bigger btn-ghost" href="/servicios">
+                <Link className="btn-bigger btn-ghost" to="/servicios">
                   Servicios
-                </a>
+                </Link>
               </div>
             </div>
           </div>
