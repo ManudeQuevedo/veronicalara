@@ -136,9 +136,15 @@
 }
 
 .card-c > .service-icons > .img {
-  height: 100px;
+  height: 250px;
   margin: 0 auto !important;
-  width: 100px;
+  width: 250px;
+}
+
+.card-c > .service-icons > .img:nth-child(2) {
+  height: 450px;
+  margin: 0 auto !important;
+  width: 250px;
 }
 
 .card-c > h3 {

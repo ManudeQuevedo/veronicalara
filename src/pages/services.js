@@ -2,10 +2,10 @@ import React from "react"
 import "../assets/styles/services.css"
 import { Link } from "react-router-dom"
 import Equipment from "../assets/img/bg-main-page.svg"
-import Obstetricia from "../assets/img/obstetricia.svg";
-import Ginecologia from '../assets/img/ginecologia.svg'
-import Colposcopia from "../assets/img/colposcopia.svg";
-import Infertilidad from "../assets/img/Infertilidad.svg";
+import Obstetricia from "../assets/img/obstetricia.png"
+import Ginecologia from '../assets/img/Ginecologia.png'
+import Colposcopia from "../assets/img/colposcopia.png"
+import Infertilidad from "../assets/img/infertilidad.png"
 
 const Services = props => {
   return (
