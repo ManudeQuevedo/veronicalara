@@ -27,6 +27,22 @@
    text-align: center;
 }
 
+.services-list {
+   line-height: 1.3rem;
+   margin-top: 10px;
+}
+
+.services-list > li {
+   list-style-type: decimal;
+}
+
+.services-list > li > ul {
+   color: #000;
+   line-height: 1.3rem;
+   list-style-type: square;
+   margin: 5px 0 5px 15px;
+}
+
 .list-item > li {
    list-style-position: inherit;
    background: #ececec;

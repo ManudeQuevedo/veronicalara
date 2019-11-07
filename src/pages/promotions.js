@@ -9,7 +9,7 @@ const Promotions = props => {
           <div className="grid-1">
             <h1 className="promotion-title">Promociones vigentes</h1>
             <p className="subtitle">
-              Promociones vigente del 1 al 31 de Octubre del 2019
+              Promociones vigente del 01 al 30 de Noviembre del 2019
             </p>
           </div>
         </div>

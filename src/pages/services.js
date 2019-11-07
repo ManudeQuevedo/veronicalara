@@ -45,16 +45,23 @@ const Services = props => {
             </div>
             <h3>Ginecología</h3>
             <div className="text">
-              <ul>
-                <li>Cirugías laparoscópicas</li>
-                <li>Miomectomías, Histerectomías</li>
-                <li>Tumores benignos de ovario</li>
-                <li>Sangrados uterinos anormales</li>
-                <li>Planificación familiar</li>
-                <li>Métodos anticonceptivos</li>
-                <li>Cirugía para no tener más bebés (OTB)</li>
-                <li>Cirugía general</li>
-                <li>Colecistectomías por laparoscopias, Hernias</li>
+              <ul className="services-list">
+                <li>
+                  Ginecología Regenerativa
+                  <ul>
+                    <li>Vaginoplastia</li>
+                    <li>Labioplastia</li>
+                    <li>Blanqueamiento vulvar</li>
+                    <li>Rejuvenecimiento vaginal con laser</li>
+                    <li>Punto G</li>
+                  </ul>
+                </li>
+                <li>
+                  Tratamientos con laser
+                  <ul>
+                    <li>Lesiones precursoras de cancer</li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -64,8 +71,8 @@ const Services = props => {
             </div>
             <h3>Obstetricia</h3>
             <div className="text">
-              <ul>
-                <li>Partos vaginales</li>
+              <ul className="services-list">
+                <li>Partos humanizados</li>
                 <li>Cesáreas</li>
                 <li>Legrados uterinos</li>
                 <li>Control prenatal de embarazo</li>
@@ -83,7 +90,7 @@ const Services = props => {
             </div>
             <h3>Colposcopía</h3>
             <div className="text">
-              <ul>
+              <ul className="services-list">
                 <li>
                   Detección del virus del papiloma humano (VPH) con colposcopía
                   o pruebas moleculares
@@ -93,6 +100,8 @@ const Services = props => {
                   displacias cervicales, vaginales o valvulares
                 </li>
                 <li>Quitar tumores benignos de la mama</li>
+                <li>Tratamiento con laser para verrugas genitales</li>
+                <li>Lesiones pre-cancerosas</li>
               </ul>
             </div>
           </div>
@@ -102,7 +111,7 @@ const Services = props => {
             </div>
             <h3>Infertilidad</h3>
             <div className="text">
-              <ul>
+              <ul className="services-list">
                 <li>Pruebas de fertilidad femenina</li>
                 <li>Seguimientos foliculares</li>
                 <li>Inseminación artificial</li>

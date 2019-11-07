@@ -1,7 +1,7 @@
 import React from "react"
 import "../assets/styles/home.css"
 import { Link } from "react-router-dom"
-import Veronica from '../assets/img/veronicalara.svg'
+import Veronica from '../assets/img/dra-1.jpeg'
 
 const Home = (props) => {
   return (

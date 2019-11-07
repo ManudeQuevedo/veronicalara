@@ -162,10 +162,12 @@
 }
 
 .card-c > .text {
-  text-align: left;
-  line-height: 20px;
-  font-size: 18px;
   color: #444c52;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px;
+  text-align: left;
 }
 
 .card-c > .textJustify {

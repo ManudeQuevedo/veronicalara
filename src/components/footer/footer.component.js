@@ -10,7 +10,7 @@ const Footer = (props) => {
             &copy; {new Date().getFullYear()} <strong>Dra. Veronica Lara</strong>
           </div>
           <div className="footer-copyrights-right">
-            Developed by &nbsp;
+            Desarrollado por &nbsp;
             <a
               href="https://www.manudequevedo.com"
               target="_blank"
