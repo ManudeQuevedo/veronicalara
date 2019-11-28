@@ -71,8 +71,8 @@ const Promotions = props => {
           <div className="content-basic">
             <div className="grid-1">
               <div className="promotions-subfooter">
-                Para agendar tu cita, llámanos al
-                <span className="contact-phone">5273-1290</span>, ó contáctame vía
+                Para agendar tu cita, llámanos al 
+                <span className="contact-phone"> 5273-1290</span>, ó contáctame vía
                 correo electrónico llenando el formulario en la sección de contacto con las dudas y/o promoción de tu interés, me contactaré contigo a la brevedad posible para dar seguimiento.
               </div>
             </div>

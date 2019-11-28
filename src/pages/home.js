@@ -30,8 +30,8 @@ const Home = (props) => {
               <div className="title">Servicios</div>
               <div className="text">
                 Checa la amplia variedad de servicios integrales que tengo
-                disponibles para ti y tu bebé, todos estos servicios son
-                brindados con los más altos estándares de calidad.
+                disponibles para tí, desde Ginecología, Tratamiento con Laser
+                CO2, Colposcopía, Infertilidad entre muchos otros.
               </div>
             </div>
             <div className="card-a">
@@ -48,7 +48,11 @@ const Home = (props) => {
       <div className="learnMore base-grid">
         <div className="content-basic">
           <div className="grid-1">
-            <div className="work-together">Agenda tu cita</div>
+            <div className="work-together-home">
+              Agenda tu cita marca al 
+              <span className="home-contact-details"> 5273-1290 </span>
+              ó da click en el botón de abajo <br/> para llenar el formulario.
+            </div>
             <div className="work-together3">
               <Link to="/contacto" className="btn-bigger btn-ghost">
                 Contacto

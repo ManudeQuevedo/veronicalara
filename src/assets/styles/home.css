@@ -95,12 +95,13 @@
    margin: 20px 0;
 }
 
-.work-together {
+.work-together-home {
   color: #42c6ba;
   font-family: 'Open Sans', sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-top: 50px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -127,6 +128,13 @@
 
 .learnMore > .content-basic {
   padding: 0;
+}
+
+.home-contact-details {
+  color: #414156;
+  font-family: 'Lora', serif;
+  font-size: 1.7rem;
+  text-transform: lowercase;
 }
 
 @keyframes animatedBackground {
@@ -230,10 +238,10 @@
     padding: 0;
   }
 
-  .work-together {
+  .work-together-home {
     color: #42c6ba;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
   }
