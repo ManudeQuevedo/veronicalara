@@ -30,10 +30,10 @@ const Services = props => {
       <div className="base-grid">
         <div className="content-basic">
           <p className="services-text">
-            Ofrezco servicios de calidad, me capacito constantemente para poder
+            Ofrezco servicios de calidad capacitándome constantemente para poder
             brindarte la mejor atención sin poner en riesgo tu salud e
-            integridad, usando tecnología de vanguardia, haciéndote sentir
-            tranquila.
+            integridad, usando tecnología de vanguardia haciéndote sentir
+            segura y cómoda.
           </p>
         </div>
       </div>

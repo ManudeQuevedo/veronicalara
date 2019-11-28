@@ -30,9 +30,9 @@ const About = props => {
       <div className="base-grid">
         <div className="content-basic">
           <p className="about-text">
-            Egresada del Instituto Politécnico Nacional (IPN), posteriormente
+            Egresada del Instituto Politécnico Nacional (IPN), donde posteriormente
             realicé la Especialidad en Ginecología y Obstetricia en la
-            Universidad Nacional Autónoma de México (UNAM), además cuento con
+            Universidad Nacional Autónoma de México (UNAM) además cuento con
             estudios de Alta Especialidad en Colposcopia que realicé en el
             extranjero.
           </p>
