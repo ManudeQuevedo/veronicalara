@@ -59,7 +59,7 @@ const Services = props => {
                     </li>
                     <li>
                       Quistes de Ovario, tratamiento quirúrgico abierto o
-                      Laparoscópico
+                      Laparoscópica
                     </li>
                     <li>Síndrome de Ovario Poliquístico</li>
                     <li>Quistes benignos de mama</li>
